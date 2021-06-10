@@ -1,15 +1,15 @@
 {
-  "name": "Webpack",
-  "version": "1.0.0",
-  "description": "",
+  "name": "webpack-template-skele",
+  "version": "0.0.1",
+  "description": "This is a skeleton template for webpack. Simply do npm install then start build your project.",
   "main": "index.js",
   "scripts": {
-    "serve" : "webkack serve",
+    "serve" : "webpack serve",
     "build" : "webpack",
     "watch" : "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Somnath Sardar",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.5",
@@ -22,5 +22,9 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somnathsardar/webpack.git"
   }
 }
